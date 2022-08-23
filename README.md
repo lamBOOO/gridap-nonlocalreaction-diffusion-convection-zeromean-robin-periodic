@@ -3,14 +3,21 @@
 Solve nonlocal reaction, diffusion, convection equation on periodic torus using zero mean constraint using `Gridap.jl`
 
 $$
--\Delta u + \bm{a} \cdot \nabla(u) + \mathcal{R}_{\Gamma}(u) = f \quad \textnormal{ in } \Omega \\
-n_\Gamma \cdot \nabla(u) + u = g \quad \textnormal{ on } \Gamma \\
-\int_\Gamma u \;\textnormal{d}s = 0
+\mathcal{R}_{\Gamma} \\
+a
+$$
+
+$$
+\begin{eqnarray}
+-\Delta u + \boldsymbol{a} \cdot \nabla(u) + \mathcal{R} (u) = f \quad \textnormal{ in } \Omega \\\\\\
+n_\Gamma \cdot \nabla(u) + u = g \quad \textnormal{ on } \Gamma \\\\\\
+\int_\Gamma u \\;\textnormal{d}s = 0
+\end{eqnarray}
 $$
 
 - $\Omega = {[0,1]}^2$ is periodic (torus)
 - $\Omega$ has a hole in the middle with boundary $\Gamma$
-- Linear nonlocal reaction is given by $\mathcal{R}_{\Gamma}(u) = \int_\Gamma u \; \textnormal{d}s$
+- Linear nonlocal reaction is given by $\mathcal{R}(u)=\int_{\Gamma} u \\; \textnormal{d}s$
 
 ## Tutorial
 
