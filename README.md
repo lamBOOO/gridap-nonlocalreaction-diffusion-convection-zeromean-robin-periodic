@@ -33,6 +33,7 @@ julia --project solve.jl
 
 - Implement zero mean, Lagrange multiplier style possible?
   - 'constraint=:zeromean' doesn't seem to work, strange..
+  - https://gridap.github.io/Tutorials/dev/pages/t008_inc_navier_stokes/
 - Implement Robin BCs
   - See https://github.com/gridap/Gridap.jl/issues/29
   - Code was removed from Gridap, try to find a working version
