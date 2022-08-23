@@ -12,6 +12,17 @@ $$
 - $\Omega$ has a hole in the middle with boundary $\Gamma$
 - Linear nonlocal reaction is given by $\mathcal{R}_{\Gamma}(u) = \int_\Gamma u \; \textnormal{d}s$
 
+## Tutorial
+
+- Install `julia`
+- Install `gmsh` and have it in path
+
+```bash
+./create-mesh.sh  # optional if geo-file is changed or msh-file missing
+julia --project solve.jl
+# results.vtu can be opened with Paraview
+```
+
 ## Info
 
 - Mesh generated using `gmsh`
