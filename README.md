@@ -14,6 +14,8 @@ $$
 - $\Omega$ has a hole in the middle with boundary $\Gamma$
 - Linear nonlocal reaction is given by $\mathcal{R}(u)=\int_{\Gamma} u \\; \textnormal{d}s$
 
+<img src="./etc/pic.png" alt="drawing" width="200"/>
+
 ## Tutorial
 
 - Install `julia`
