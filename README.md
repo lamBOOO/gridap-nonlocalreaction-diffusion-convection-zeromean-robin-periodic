@@ -3,11 +3,6 @@
 Solve nonlocal reaction, diffusion, convection equation on periodic torus using zero mean constraint using `Gridap.jl`
 
 $$
-\mathcal{R}_{\Gamma} \\
-a
-$$
-
-$$
 \begin{eqnarray}
 -\Delta u + \boldsymbol{a} \cdot \nabla(u) + \mathcal{R} (u) = f \quad \textnormal{ in } \Omega \\\\\\
 n_\Gamma \cdot \nabla(u) + u = g \quad \textnormal{ on } \Gamma \\\\\\
